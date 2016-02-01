@@ -1,0 +1,145 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Brazos University</Database>
+    <Server>infodata.tamu.edu</Server>
+    <ConnectionString>DataSource=infodata.tamu.edu;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>z6BRQOTQgnjNTHjigESDVVNHPoA=4/26/2015 3:47:55 PM4/26/2015 3:26:08 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>sHJUYOU/upjHzY/fyHh8FU3Bwyc=4/26/2015 6:45:40 PM4/26/2015 3:28:14 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Wqv82LpC01HKERltOOU7bZIuVL0=4/26/2015 4:02:47 PM4/26/2015 3:37:35 PM</TimeStamp>
+        <ID>
+          <String>Dim_Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WB/lFuRcjyet0LK5agFgkYwnweg=4/26/2015 4:02:18 PM4/26/2015 3:39:33 PM</TimeStamp>
+        <ID>
+          <String>Dim Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zlNPUUFQKCsI8siEGcNScmOwM60=4/26/2015 4:46:42 PM4/26/2015 4:44:55 PM</TimeStamp>
+        <ID>
+          <String>Dim Degree</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wAWGf8PbLjpm4qC/XADpnGaGXnI=4/26/2015 4:48:05 PM4/26/2015 4:44:55 PM</TimeStamp>
+        <ID>
+          <String>Dim Applicant</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sP7Rmlj2TqXyf4bwbqMQqYDUAGw=4/28/2015 7:10:06 PM4/26/2015 4:44:56 PM</TimeStamp>
+        <ID>
+          <String>Dim Program</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2glmcAFxImMVNLEIYl7/UEfTeSw=4/26/2015 4:57:32 PM4/26/2015 4:44:56 PM</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qeoFeM8ePI/oxhBqOcWm6vZPwLc=4/26/2015 6:02:37 PM4/26/2015 5:49:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Domain</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zAWSKKy8qgTSIYrl918GOphw3d8=4/28/2015 7:21:20 PM4/26/2015 6:45:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Faculty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>f8IcLoGM84Yqw/KLNI8qAyO5UFM=4/26/2015 6:49:57 PM4/26/2015 6:45:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Course</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QQxvUyvKv2UD4pufSh33K8jSTGw=4/26/2015 7:12:31 PM4/26/2015 7:12:23 PM</TimeStamp>
+        <ID>
+          <String>Dim Department</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>fDEGwDz0t+6CzxEQl4o56e06swk=4/26/2015 4:08:28 PM4/26/2015 3:39:33 PM45d3rzPRZ4rQOLEcJjxPPzBbW08=4/26/2015 3:39:33 PM4/26/2015 3:39:33 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GKUOQkYh243o7e043aHF5zgNp5U=4/28/2015 7:10:04 PM4/26/2015 5:15:29 PMSXBhKnACA9EnjjMmuTklA9A/9Tc=4/26/2015 5:15:29 PM4/26/2015 5:15:29 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>qRt9krwyCWQeIrGonT54OtrcRuQ=4/28/2015 7:10:04 PM4/26/2015 5:49:40 PMITloQSXhbT4LpFlCflIk4yZHKj0=4/26/2015 5:49:40 PM4/26/2015 5:49:40 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity 1 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>rVX/IF4h3bHrZimhPz5uWjOZ1OY=4/28/2015 7:20:52 PM4/28/2015 7:06:53 PMB474eLAztIZY/7ll8EbxGhXYpfM=4/28/2015 7:06:53 PM4/28/2015 7:06:53 PM</TimeStamp>
+        <ID>
+          <String>BrazosUniversity 1 2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>TYwx58QUB6Csd4tJzCGC4ktACDs=4/26/2015 3:17:38 PM4/26/2015 3:17:38 PM</TimeStamp>
+      <ID>
+        <String>Brazos University</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2015-04-29T00:21:27.55Z</LastDeployed>
+</DeploymentSnapshot>
