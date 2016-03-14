@@ -3,7 +3,7 @@ This repository consists of files and reports created as part of Datawarehouse D
 
 ### Sample reports generated through SSAS
 
-#### Enrolement with respect to each Major:
+#### Enrollment with respect to each Major:
 ![Report One](Reportone.png)
 ![Report One Graph](ReportoneGraphs.png)
 
